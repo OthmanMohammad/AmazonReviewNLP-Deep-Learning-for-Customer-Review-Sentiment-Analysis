@@ -46,7 +46,7 @@ def data_generator(file_path, batch_size, max_features, max_len, downsample_frac
 
 3. Pass the `downsample_frac` parameter when calling the `data_generator` function in `train.py`. Adjust the value of `downsample_frac` as needed.
 
-For example, to use 10% of the data, set `downsample_frac = 0.1`.
+For example, to use 10% of the data, set `downsample_frac = 0.1`
 
 ```python
 downsample_frac = 0.1  # Adjust this value as needed
